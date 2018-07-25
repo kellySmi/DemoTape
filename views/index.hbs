@@ -1,0 +1,27 @@
+<div id="demo" class="container">
+    <div>
+      <h3>Top Tracks</h3>
+      <p>Get an artist's top track on Spotify texted to you. Enter the artist and phone number below to get the info.</p>
+    </div>
+    <form action="post" name="form" id="form" >
+    <div class="form-group">
+        <label for="full-name">Artists Name</label>
+        <input class="form-control" name="artistName" id="artistName" type="text" placeholder="artists name" title="Artist Name to look for">
+        <div class="invalid-feedback" id="artistError">Please enter a valid artist name.</div>
+      </div>
+      <div class="form-group">
+        <label for="email-address">Phone Number</label>
+        <input class="form-control" name="phone" id="phone" type="text" placeholder="phone number" title="Phone number to text">
+       <div class="invalid-feedback" id="phoneError">Please enter a valid phone number.</div>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Send me a demo</button>
+      </div>
+    </form>
+</div>
+<div id="receipt" class="container center">
+  <h3 id="responseText"></h3>
+  <button id="reset" class="btn btn-primary">Reset</button>
+</div>
+<script type="text/javascript" src="js/index.js"></script>

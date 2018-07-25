@@ -1,0 +1,34 @@
+{
+  "name": "demo-tracks",
+  "author": "Kelly Smith",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jasmine "
+  },
+  "keywords": [
+    "express",
+    "heroku",
+    "nodejs"
+  ],
+  "repository": "https://github.com/promptworks/demo-tape-kellysmi.git",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "jasmine": "^3.1.0",
+    "libphonenumber-js": "^1.2.15",
+    "morgan": "~1.9.0",
+    "spotify-web-api-node": "^3.1.1",
+    "twilio": "^3.17.4"
+  },
+  "engines": {
+    "node": "10.2.1"
+  },
+  "devDependencies": {
+    "rewire": "^4.0.1"
+  }
+}
