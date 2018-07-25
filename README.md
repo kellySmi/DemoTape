@@ -10,21 +10,17 @@ Top tracks allows you to enter an artist's name and a phone number to receive an
 
 **Please note:** This is only a demo and should not be used in a production environment.
 
-<br>
 
 ### Installation
-------------
-
-`npm install`
-
-<br />
+```bash
+$ npm install
+```
 
 ### Test
-------------
-`npm test`
-
+```bash
+$ npm test
+```
 ### Introduction
-------------
  Have you ever wondered what your favorite artist's top single is on Spotify?
  Now you can find out by entering the artists's name and your phone number.
 
