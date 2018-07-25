@@ -25,4 +25,4 @@ $ npm test
  Now you can find out by entering the artists's name and your phone number.
 
  ### Demo
- A live demo can be seen (here.)[http://demo-tape-kellysmi-dev.us-east-1.elasticbeanstalk.com/]
+ A live demo can be seen [here.](http://demo-tape-kellysmi-dev.us-east-1.elasticbeanstalk.com/)
